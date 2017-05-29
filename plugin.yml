@@ -1,0 +1,19 @@
+name: Core
+author: ondraczsk
+api: [3.0.0, 3.0.0-alpha4]
+version: 1.0
+main: mcpelandcore/main
+
+commands:
+	help:
+		description: help
+		usage: /help
+	ver:
+		description: ver
+		usage: /ver
+# Permissions 
+permissions:
+	help.command:
+		default: true
+	ver.command:
+		default: true
